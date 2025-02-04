@@ -1,0 +1,397 @@
+
+body{
+    background-color: #F9F7F7;
+    margin: 0;
+    font-family: "Bubbler One", serif;
+    color:#3F72AF;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.footer{
+    width: 100%;
+    background-color: #3F72AF;
+    color:#DBE2EF;
+    height: 15vh;
+    margin: 0;
+}
+.footer>div{
+    padding: 10px;
+}
+.footer>p{
+    font-size: 0.75em;
+}
+#hero>.container{
+    width: 100%;
+    background-color: #3F72AF;
+    height:100vh;
+    color:#DBE2EF;
+    
+    
+}
+a{
+    color:#3F72AF;
+    text-decoration: none;
+}
+.circle{
+    border: 1px solid #DBE2EF;
+    border-radius: 50%;
+    padding: 1.5em;
+    animation-name: circle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+.container > .circle{
+    padding: 1.5em;
+    animation-name: circle;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+.circle >.circle{
+    padding: 1.5em;
+    animation-name: circle;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+.circle >.circle> .circle{
+    padding: 1.5em;
+    animation-name: circle;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+#hero .profile {
+    background-color: #F9F7F7;
+    color:#3F72AF;
+    
+}
+.pro{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 6em;
+    font-family: "Sacramento",cursive;
+}
+h2{
+    font-size: 3em;
+}
+.pfp{
+    height:25%;
+    border-radius: 50%;
+}
+.intro{
+    width: 30%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+.demo{
+    width: 100%;
+    
+}
+.projects{
+    margin-left:20%;
+    margin-right: 20%;
+}
+.projects>.writing{
+    text-align: left;
+    font-size: 1.0em;
+    max-width: 75%;
+}
+.projects>.image{
+    text-align: right;
+  
+  padding-right: 10px;
+}
+.btn{
+    background-color: #112D4E;
+    color: #DBE2EF;
+    padding: 10px;
+    border-radius: 5%;
+}
+#showcase{
+    margin-bottom: 10%;
+}
+hr{
+    width: 50%;
+    border: dotted ;
+}
+.about-me{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+}
+#betta {
+    width: 100%;
+    max-width: 250px;
+}
+.footer-links{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:10px;
+    font-size: 1em;
+
+}
+.link{
+    padding: 10px;
+}
+.link>a{
+    color:#DBE2EF;
+}
+@keyframes circle {
+    from{ border: 1px solid #DBE2EF;}
+    to {border: 1px solid #3F72AF}
+    
+}
+
+@media (max-width:350px){
+    h1{
+        font-size: 1.5em;
+        font-family: "Sacramento",cursive;
+    }
+    h2{
+        font-size: 1em;
+    }
+    .circle{
+        border: 1px solid #DBE2EF;
+        border-radius: 50%;
+        padding: 1.5em;
+        animation-name: circle;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        
+    }
+    .container > .circle{
+        padding: 1.5em;
+        animation-name: circle;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    .circle >.circle{
+        padding: 1.5em;
+        animation-name: circle;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+    }
+    .circle >.circle> .circle{
+        padding: 1.5em;
+        animation-name: circle;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+    .profile{
+        margin-top: 0;
+    }
+    .intro{
+        width: 30%;
+        font-size: 0.75em;
+        font-weight: bold;
+    }
+    .projects>.writing{
+        text-align: left;
+        font-size: 0.75em;
+    }
+    .projects>.image{
+        text-align: right;
+        padding-right: 10px;
+    }
+    .projects{
+        margin-left:5%;
+        margin-right: 5%;
+    }
+    .about-me{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 0.75em;
+        
+    }
+   
+}
+@media (min-width:351px){
+    h1{
+        font-size: 3em;
+        font-family: "Sacramento",cursive;
+    }
+    h2{
+        font-size: 2em;
+    }
+    .circle{
+        border: 1px solid #DBE2EF;
+        border-radius: 50%;
+        padding: 1.5em;
+        animation-name: circle;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        
+    }
+    .container > .circle{
+        padding: 1.5em;
+        animation-name: circle;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    .circle >.circle{
+        padding: 1.5em;
+        animation-name: circle;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+    }
+    .circle >.circle> .circle{
+        padding: 1.5em;
+        animation-name: circle;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+    .profile{
+        margin-top: 0;
+    }
+    .intro{
+        width: 30%;
+        font-size: 1.0em;
+        font-weight: bold;
+    }
+    .projects>.writing{
+        text-align: left;
+        font-size: 1em;
+    }
+    .projects{
+        margin-left:10%;
+        margin-right: 10%;
+    }
+
+}
+@media (min-width:541px){
+    h1{
+        font-size: 4em;
+        font-family: "Sacramento",cursive;
+    }
+    h2{
+        font-size: 2em;
+    }
+    .circle{
+        border: 1px solid #DBE2EF;
+        border-radius: 50%;
+        padding: 1.5em;
+        animation-name: circle;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        
+    }
+    .container > .circle{
+        padding: 2.5em;
+        animation-name: circle;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    .circle >.circle{
+        padding: 2.5em;
+        animation-name: circle;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+    }
+    .circle >.circle> .circle{
+        padding: 2.5em;
+        animation-name: circle;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+    .profile{
+        margin-top: 0;
+    }
+    .intro{
+        width: 30%;
+        font-size: 1.0em;
+        font-weight: bold;
+    }
+    .demo{
+        width: 100px;
+        
+    }
+   
+}
+@media (min-width:1800px){
+    h1{
+        font-size: 6em;
+        font-family: "Sacramento",cursive;
+    }
+    h2{
+        font-size: 3em;
+    }
+    .circle{
+        border: 1px solid #DBE2EF;
+        border-radius: 50%;
+        padding: 1.5em;
+        animation-name: circle;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        
+    }
+    .container > .circle{
+        padding: 3.5em;
+        animation-name: circle;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    .circle >.circle{
+        padding: 3.5em;
+        animation-name: circle;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+    }
+    .circle >.circle> .circle{
+        padding: 3.5em;
+        animation-name: circle;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+    .profile{
+        margin-top: 0;
+    }
+    .intro{
+        width: 30%;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .projects>.writing{
+        text-align: left;
+        font-size: 1.5em;
+        
+    }
+    .demo{
+        width: 200px;
+        
+    }
+    p{
+        font-size: 1.5em;
+    }
+    .footer-links{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        padding:10px;
+        font-size: 1.5em;
+    
+    }
+    
+}
